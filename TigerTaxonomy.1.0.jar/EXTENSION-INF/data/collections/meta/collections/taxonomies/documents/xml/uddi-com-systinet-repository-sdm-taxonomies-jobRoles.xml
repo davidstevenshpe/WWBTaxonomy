@@ -1,0 +1,58 @@
+<r:meta xmlns:pt="http://systinet.com/2005/05/soa/model/property/type"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:r="http://systinet.com/2005/05/repository"
+        xmlns:rest="http://systinet.com/2005/05/soa/resource"
+        xmlns:a="http://systinet.com/2005/05/soa/model/artifact"
+        xmlns:g="http://systinet.com/2005/05/soa/model/propertyGroup"
+        xmlns:p="http://systinet.com/2005/05/soa/model/property">
+   <r:path>/taxonomies/uddi-com-systinet-repository-sdm-taxonomies-jobRoles</r:path>
+   <r:collection>/taxonomies/</r:collection>
+   <r:binary>false</r:binary>
+   <r:contentType>text/xml; charset=utf-8</r:contentType>
+   <r:type>document</r:type>
+   <r:deleted>false</r:deleted>
+   <r:uuid>90622243-4f80-4ff0-ae4a-a63f5c2ea61b</r:uuid>90622243-4f80-4ff0-ae4a-a63f5c2ea61b<r:revision>
+      <r:number>1</r:number>
+      <r:timestamp>2008-11-21T14:09:16.244Z</r:timestamp>
+      <r:creator>admin</r:creator>
+      <r:lastDataRevision>1</r:lastDataRevision>
+   </r:revision>
+   <r:extensions>
+      <r:descriptor>
+         <a:taxonomyArtifact deleted="0"
+                             xlink:href="taxonomies/uddi-com-systinet-repository-sdm-taxonomies-jobRoles"
+                             xml:base="http://15.126.212.109:8080/em/systinet/platform/restBasic/repository/">
+            <nameGroup xmlns="http://systinet.com/2005/05/soa/model/propertyGroup">
+               <name xmlns="http://systinet.com/2005/05/soa/model/property">Job roles</name>
+            </nameGroup>
+            <p:checked>true</p:checked>
+            <p:hierarchical>false</p:hierarchical>
+            <p:isCached>false</p:isCached>
+            <descriptionGroup xmlns="http://systinet.com/2005/05/soa/model/propertyGroup">
+               <description xmlns="http://systinet.com/2005/05/soa/model/property">Taxonomy of job roles.</description>
+            </descriptionGroup>
+            <g:artifactTypeGroup>
+               <p:artifactType name="Artifact"
+                               taxonomyUri="uddi:systinet.com:soa:model:taxonomies:artifactTypes"
+                               value="urn:com:systinet:soa:model:artifacts"/>
+               <p:artifactType name="Content"
+                               taxonomyUri="uddi:systinet.com:soa:model:taxonomies:artifactTypes"
+                               value="urn:com:systinet:soa:model:artifacts:content"/>
+               <p:artifactType name="Categorization"
+                               taxonomyUri="uddi:systinet.com:soa:model:taxonomies:artifactTypes"
+                               value="urn:com:systinet:soa:model:artifacts:content:categorization"/>
+               <p:artifactType name="Taxonomy"
+                               taxonomyUri="uddi:systinet.com:soa:model:taxonomies:artifactTypes"
+                               value="urn:com:systinet:soa:model:artifacts:content:categorization:taxonomy"/>
+            </g:artifactTypeGroup>
+            <p:lastRevision>1</p:lastRevision>
+            <p:revision>1</p:revision>
+            <p:valueDisplayFormat name="Name"
+                                  taxonomyUri="uddi:systinet.com:soa:model:taxonomies:valueDisplayFormat"
+                                  value="Name"/>
+         </a:taxonomyArtifact>
+      </r:descriptor>
+   </r:extensions>
+</r:meta>

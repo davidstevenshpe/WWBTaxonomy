@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+   
+   
+   
+   
+   <platform>
+      <platformHome>C:\Users\stevenda\workspace\WWBMasterFiles</platformHome>
+      <extensionFolder>C:\Users\stevenda\workspace\WWBMasterFiles\extensions</extensionFolder>
+      <serverUrl>http://c4w23400.itcs.hp.com:8080/em</serverUrl>
+      <projectType>model</projectType>
+      <refreshExtensionsDuringStartUp>false</refreshExtensionsDuringStartUp>
+   </platform>
+   <extension>
+      <id>WWBTaxonomy</id>
+   </extension>
+   <stylesheetDirectory>C:\Users\stevenda\workspace\WWBTaxonomy\xslt</stylesheetDirectory>
+   <defaultRole>
+      <visibility>*all*</visibility>
+      <editibility>*all*</editibility>
+   </defaultRole>
+   <fileExclude>
+      <pattern>CVS</pattern>
+      <pattern>\.svn</pattern>
+   </fileExclude>
+</configuration>

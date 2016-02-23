@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><taxonomy check="true" xmlns="http://systinet.com/uddi/taxonomy/v3/5.5">
+  <tModel tModelKey="uddi:tiger:com.systinet.soa:model:taxonomies:Industry_Types" deleted="false" xmlns="http://systinet.com/uddi/taxonomy/v3/5.0">
+    <name xmlns="urn:uddi-org:api_v3">Industry Types</name>
+    <categoryBag xmlns="urn:uddi-org:api_v3">
+      <keyedReference tModelKey="uddi:systinet.com:taxonomy:compatibility" keyName="Compatibility" keyValue="tModel"/>
+      <keyedReference tModelKey="uddi:systinet.com:taxonomy:compatibility" keyName="Compatibility" keyValue="businessService"/>
+      <keyedReference tModelKey="uddi:systinet.com:taxonomy:compatibility" keyName="Compatibility" keyValue="businessEntity"/>
+      <keyedReference tModelKey="uddi:systinet.com:taxonomy:compatibility" keyName="Compatibility" keyValue="bindingTemplate"/>
+      <keyedReference tModelKey="uddi:uddi.org:categorization:types" keyName="Checked value set" keyValue="checked"/>
+    </categoryBag>
+  </tModel>
+  <compatibilityBag xmlns="http://systinet.com/uddi/taxonomy/v3/5.0">
+    <compatibility>tModel</compatibility>
+    <compatibility>businessService</compatibility>
+    <compatibility>businessEntity</compatibility>
+    <compatibility>bindingTemplate</compatibility>
+  </compatibilityBag>
+  <categorizationBag xmlns="http://systinet.com/uddi/taxonomy/v3/5.0">
+    <categorization>categorization</categorization>
+  </categorizationBag>
+  <validation xmlns="http://systinet.com/uddi/taxonomy/v3/5.0">
+    <categories>
+      <category keyName="Consumer Industries" keyValue="consumerIndustries" disabled="false"/>
+      <category keyName="Manufacturing" keyValue="manufacturing" disabled="false"/>
+      <category keyName="Healthcare" keyValue="healthcare" disabled="false"/>
+      <category keyName="Transportation" keyValue="transportation" disabled="false"/>
+      <category keyName="Financial Services" keyValue="financial" disabled="false"/>
+      <category keyName="Public Sector" keyValue="publicSector" disabled="false"/>
+      <category keyName="Communications" keyValue="communications" disabled="false"/>
+      <category keyName="Media &amp; Entertainment" keyValue="mediaAndEntertainment" disabled="false"/>
+      <category keyName="Utilities &amp; Energy" keyValue="utilitiesAndEnergy" disabled="false"/>
+      <category keyName="Defenc​e" keyValue="defenc​e" disabled="false"/>
+      <category keyName="Travel" keyValue="travel" disabled="false"/>
+      <category keyName="Life Sciences​" keyValue="lifeSciences​" disabled="false"/>
+    </categories>
+  </validation>
+</taxonomy>

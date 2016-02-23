@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>WWBTaxonomy</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>com.systinet.tools.core.repositoryProject</nature>
+		<nature>com.systinet.tools.ct.CustomizationNature</nature>
+	</natures>
+</projectDescription>
